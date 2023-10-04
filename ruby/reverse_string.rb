@@ -1,5 +1,12 @@
 def reverse_string(str)
   # type your code in here
+  new_string = ""
+  i = str.length - 1
+  while i >= 0 do
+    new_string << str[i]
+    i -= 1
+  end
+  new_string
 end
 
 if __FILE__ == $PROGRAM_NAME
